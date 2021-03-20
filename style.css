@@ -1,0 +1,59 @@
+html,
+body {
+  overscroll-behavior-y: contain;
+}
+
+#game table {
+  background-color: #7c736c;
+  border-spacing: 0.5em;
+  border-collapse: separate;
+}
+
+#game td {
+  font-size: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  vertical-align: middle;
+  background-color: white;
+}
+
+#game td.empty {
+  background-color: #fff;
+}
+
+#game td.value2 {
+  background-color: #efe4da;
+}
+
+#game td.value4 {
+  background-color: #ede0c8;
+}
+
+#game td.value8 {
+  background-color: #f3b179;
+}
+
+#game td.value16 {
+  background-color: #f59563;
+}
+
+#game td.value32 {
+  background-color: #f67c5f;
+}
+
+#game td.value64 {
+  background-color: #f55e3c;
+}
+
+#game td.value128 {
+  background-color: #edce70;
+}
+
+#game td.value256 {
+  background-color: #edcb61;
+}
+
+#game td.value1024 {
+  background-color: #ff3d3e;
+}
